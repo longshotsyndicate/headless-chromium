@@ -17,8 +17,8 @@ import (
 
 	"github.com/yijinliu/algo-lib/go/src/logging"
 
-	hc "github.com/yijinliu/headless-chromium/go"
-	protocol "github.com/yijinliu/headless-chromium/go/protocol/v1.2"
+	hc "github.com/longshotsyndicate/headless-chromium/go"
+	protocol "github.com/longshotsyndicate/headless-chromium/go/protocol/v1.2"
 )
 
 var hcPortFlag = flag.Int("port", 9222, "")

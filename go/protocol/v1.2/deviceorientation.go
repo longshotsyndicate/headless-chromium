@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	hc "github.com/yijinliu/headless-chromium/go"
+	hc "github.com/longshotsyndicate/headless-chromium/go"
 	"sync"
 )
 

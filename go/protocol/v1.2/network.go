@@ -2,8 +2,8 @@ package protocol
 
 import (
 	"encoding/json"
+	hc "github.com/longshotsyndicate/headless-chromium/go"
 	"github.com/yijinliu/algo-lib/go/src/logging"
-	hc "github.com/yijinliu/headless-chromium/go"
 	"sync"
 )
 
@@ -17,8 +17,7 @@ type RequestId string
 type NetworkTimestamp float64
 
 // Request / response headers as keys / values of JSON object.
-type Headers struct {
-}
+type Headers map[string]string
 
 // Loading priority of a resource request.
 type ConnectionType string

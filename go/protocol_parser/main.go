@@ -14,7 +14,7 @@ var outputLangsFlag = flag.String("output-langs", "golang",
 	"Languages separated by comma. Only golang supported for now.")
 
 var golangOutputDirFlag = flag.String("golang-output-dir",
-	"src/github.com/yijinliu/headless-chromium/go/protocol", "")
+	"src/github.com/longshotsyndicate/headless-chromium/go/protocol", "")
 var golangHandleExperimentalFlag = flag.Bool("golang-handle-experimental", true, "")
 
 func main() {

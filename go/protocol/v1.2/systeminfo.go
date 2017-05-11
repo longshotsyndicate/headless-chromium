@@ -2,8 +2,8 @@ package protocol
 
 import (
 	"encoding/json"
+	hc "github.com/longshotsyndicate/headless-chromium/go"
 	"github.com/yijinliu/algo-lib/go/src/logging"
-	hc "github.com/yijinliu/headless-chromium/go"
 	"sync"
 )
 

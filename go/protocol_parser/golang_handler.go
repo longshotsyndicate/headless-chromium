@@ -279,7 +279,7 @@ func (h *GolangProtocolHandler) onType(domain string, tp *DomainType, buf *bytes
 
 func (h *GolangProtocolHandler) onCommand(domain string, cmd *DomainCommand, buf *bytes.Buffer) {
 	h.imports["sync"] = ""
-	h.imports["github.com/yijinliu/headless-chromium/go"] = "hc"
+	h.imports["github.com/longshotsyndicate/headless-chromium/go"] = "hc"
 	name := h.typeName(domain, cmd.Name)
 
 	// Params.
